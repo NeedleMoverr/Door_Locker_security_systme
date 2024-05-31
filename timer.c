@@ -55,7 +55,7 @@ void TIMER0_init(const TIMER0_ConfigType * Config_Ptr)
 	/*
 	 * Configurations specific to Compare Mode
 	 */
-	if((Config_Ptr->mode))
+	if(Config_Ptr->mode)
 	{
 		TCCR0 |= (1<<WGM01); /* Selecting Compare Mode */
 		OCR0 = Config_Ptr->compVal; /* Selecting Compare Value */

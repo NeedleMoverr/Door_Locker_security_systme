@@ -6,7 +6,7 @@
  *
  * Description: Commonly used Macros
  *
- * Author: Mohamed Maher
+ * Author: Magdy Mohamed
  *
  *******************************************************************************/
 
@@ -43,4 +43,5 @@
 #define DOOR_IS_OPENED 0xF9
 #define CLOSING 0xF8
 #define ERROR_STATE 0xF7
+
 #endif

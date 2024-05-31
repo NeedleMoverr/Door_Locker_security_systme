@@ -26,7 +26,7 @@
 
 typedef enum
 {
-	OVERFLOW , COMPARE
+	NORMAL , COMPARE
 }TIMER0_Mode;
 
 typedef enum

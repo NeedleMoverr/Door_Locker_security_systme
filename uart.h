@@ -67,6 +67,6 @@ void UART_sendByte(const uint16 data);
 
 void UART_sendString(const uint8 *Str);
 
-//void UART_receiveString(uint8 *Str); // Receive until #
+void UART_receiveString(uint8 *Str); // Receive until #
 
 #endif /* UART_H_ */
